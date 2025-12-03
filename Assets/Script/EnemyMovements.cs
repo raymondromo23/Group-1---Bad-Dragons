@@ -120,7 +120,7 @@ public class EnemyMovements : MonoBehaviour
         {
             isAttacking = true;
             animator.SetBool("IsChasing", false);
-            animator.SetBool("IsAttacking", false);
+            animator.SetBool("IsAttacking", true);
             animator.SetTrigger("Attack");
 
             Debug.Log("Enemy attacks the player!");
