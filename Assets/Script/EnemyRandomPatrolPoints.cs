@@ -34,10 +34,10 @@ public class EnemyRandomPatrolPoints : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponentInChildren<Animator>();
 
-        if(player == null)
+        if (player == null)
         {
             player = GameObject.FindGameObjectWithTag("Player").transform;
-           
+
         }
 
         SetNewPatrolPoint();
@@ -52,7 +52,7 @@ public class EnemyRandomPatrolPoints : MonoBehaviour
         {
             AttackPlayer();
         }
-        else if(distance <= followRange)
+        else if (distance <= followRange)
         {
             FollowPlayer();
         }
@@ -120,7 +120,7 @@ public class EnemyRandomPatrolPoints : MonoBehaviour
         {
             isAttacking = true;
             animator.SetBool("IsChasing", false);
-            animator.SetBool("IsAttacking", false);
+            animator.SetBool("IsAttacking", true);
             animator.SetTrigger("Attack");
 
             Debug.Log("Enemy attacks the player!");

@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
             if (Physics.RaycastNonAlloc(ray, hits) > 0)
             {
-                
+                agent.SetDestination(hits[0].point);
             }
         }
     }

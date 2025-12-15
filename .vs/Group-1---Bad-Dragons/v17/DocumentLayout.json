@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\RAYMOND JOEY ROMO\\Desktop\\UNITY THINGS\\NavMesh Pract\\Group-1---Bad-Dragons\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CD275-BEBD-C9A8-81DF-95190BF6E477}|Assembly-CSharp.csproj|c:\\users\\raymond joey romo\\desktop\\unity things\\navmesh pract\\group-1---bad-dragons\\assets\\script\\enemyrandompatrolpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D34CD275-BEBD-C9A8-81DF-95190BF6E477}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemyrandompatrolpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CD275-BEBD-C9A8-81DF-95190BF6E477}|Assembly-CSharp.csproj|c:\\users\\raymond joey romo\\desktop\\unity things\\navmesh pract\\group-1---bad-dragons\\assets\\script\\enemymovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D34CD275-BEBD-C9A8-81DF-95190BF6E477}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\enemymovements.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D34CD275-BEBD-C9A8-81DF-95190BF6E477}|Assembly-CSharp.csproj|c:\\users\\raymond joey romo\\desktop\\unity things\\navmesh pract\\group-1---bad-dragons\\assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D34CD275-BEBD-C9A8-81DF-95190BF6E477}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyMovements.cs",
+              "DocumentMoniker": "C:\\Users\\RAYMOND JOEY ROMO\\Desktop\\UNITY THINGS\\NavMesh Pract\\Group-1---Bad-Dragons\\Assets\\Script\\EnemyMovements.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyMovements.cs",
+              "ToolTip": "C:\\Users\\RAYMOND JOEY ROMO\\Desktop\\UNITY THINGS\\NavMesh Pract\\Group-1---Bad-Dragons\\Assets\\Script\\EnemyMovements.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyMovements.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAIwHsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:47:07.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyRandomPatrolPoints.cs",
+              "DocumentMoniker": "C:\\Users\\RAYMOND JOEY ROMO\\Desktop\\UNITY THINGS\\NavMesh Pract\\Group-1---Bad-Dragons\\Assets\\Script\\EnemyRandomPatrolPoints.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\EnemyRandomPatrolPoints.cs",
+              "ToolTip": "C:\\Users\\RAYMOND JOEY ROMO\\Desktop\\UNITY THINGS\\NavMesh Pract\\Group-1---Bad-Dragons\\Assets\\Script\\EnemyRandomPatrolPoints.cs",
+              "RelativeToolTip": "Assets\\Script\\EnemyRandomPatrolPoints.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAUwHoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:46:53.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\RAYMOND JOEY ROMO\\Desktop\\UNITY THINGS\\NavMesh Pract\\Group-1---Bad-Dragons\\Assets\\Script\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\RAYMOND JOEY ROMO\\Desktop\\UNITY THINGS\\NavMesh Pract\\Group-1---Bad-Dragons\\Assets\\Script\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Script\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:45:27.252Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -35,7 +35,7 @@ public class EnemyMovements : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
 
 
-        if(waypoints.Length > 0)
+        if (waypoints.Length > 0)
         {
             agent.SetDestination(waypoints[currentWaypoint].position);
         }
@@ -75,10 +75,10 @@ public class EnemyMovements : MonoBehaviour
         animator.SetBool("IsChasing", false);
         animator.SetBool("IsAttacking", true);
 
-        if(!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
+        if (!agent.pathPending && agent.remainingDistance <= agent.stoppingDistance)
         {
             waitTimer += Time.deltaTime;
-            if(waitTimer >= waitTime)
+            if (waitTimer >= waitTime)
             {
                 currentWaypoint = (currentWaypoint + 1) % waypoints.Length;
                 agent.SetDestination(waypoints[currentWaypoint].position);
@@ -116,11 +116,11 @@ public class EnemyMovements : MonoBehaviour
             transform.rotation = Quaternion.LookRotation(direction);
 
         //trigger attack if cooldown ready
-        if(attackTimer >= attackCooldown)
+        if (attackTimer >= attackCooldown)
         {
             isAttacking = true;
             animator.SetBool("IsChasing", false);
-            animator.SetBool("IsAttacking", false);
+            animator.SetBool("IsAttacking", true);
             animator.SetTrigger("Attack");
 
             Debug.Log("Enemy attacks the player!");
